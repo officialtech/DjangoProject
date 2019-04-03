@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>all details</title>
+</head>
+<body bgcolor="#6495ed">
+
+
+        {% for jin in alldata %}
+
+            <tr>
+            IDNO <th> {{ jin.idno }} </th>  &nbsp; --
+            NAME <th> {{ jin.name }} </th> &nbsp; --
+            COURSE <th> {{ jin.course }} </th> &nbsp; --
+            MARKS <th> {{ jin.marks }} </th> &nbsp; --
+            CONTACT <th> {{ jin.contact }} </th> &nbsp; --
+            </tr>
+        <br><br>
+        {% endfor %}
+
+</body>
+</html>
